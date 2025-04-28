@@ -1,0 +1,34 @@
+# Yii framework
+/vendor/
+/runtime/
+/web/assets/
+
+# PHPStorm project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Environment variables
+.env
+
+# Docker volumes
+postgres_data/
+
+# NPM packages
+/node_modules/
+
+# Cache files
+*.cache
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
