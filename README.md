@@ -13,7 +13,7 @@ Clone the repository and run setup:
 
 ```bash
 git clone <your-repository-url>
-cd testNY
+cd <your-repository-name>
 make setup
 ```
 
@@ -36,13 +36,13 @@ The `make setup` command will automatically:
 
 ## Testing the API
 
-After installation, the project will be available at: http://localhost:8000
+After installation, the project will be available at: http://localhost:8080
 
 ### Main Endpoints:
 
 #### User Registration
 ```
-POST http://localhost:8000/api/user/register
+POST http://localhost:8080/api/user/register
 
 {
   "first_name": "John",
@@ -55,7 +55,7 @@ POST http://localhost:8000/api/user/register
 
 #### Authentication
 ```
-POST http://localhost:8000/api/user/sign-in
+POST http://localhost:8080/api/user/sign-in
 
 {
   "email": "john@example.com",
@@ -70,13 +70,13 @@ Authorization: Bearer {received_token}
 
 #### Get Companies List
 ```
-GET http://localhost:8000/api/company
+GET http://localhost:8080/api/company
 ```
 *Requires authorization*
 
 #### Get Single Company
 ```
-GET http://localhost:8000/api/company/{id}
+GET http://localhost:8080/api/company/{id}
 ```
 *Requires authorization*
 
